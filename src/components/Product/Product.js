@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBasketShopping } from '@fortawesome/free-solid-svg-icons'
 import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 const Product = (props) => {
-  const {name,price,img}=props.product
+  const {addSelectHeadphone,product}=props
+  console.log(addSelectHeadphone)
+  const {name,price,img}=product;
   return (
     <div className='product'>
         <img src={img} alt="" />

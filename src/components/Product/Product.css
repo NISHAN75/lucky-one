@@ -1,8 +1,4 @@
-.product-container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 30px 20px;
-}
+
 .product {
   box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 30%);
   padding: 15px;
@@ -27,7 +23,11 @@
   background-color: #fff;
   color: #00008B;
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
+  transition:  0.3ms ease-in;
+}
+.btn-text:hover{
+  color: black;
 }
 .icon {
   margin-left: 20px;

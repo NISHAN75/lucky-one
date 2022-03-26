@@ -9,14 +9,19 @@ const Shop = () => {
    .then(res => res.json())
    .then(data => setProducts(data))
  },[]);
+ const addSelectHeadphone=()=>{
+  
+ }
   return (
     <div className='shop-container'>
         <div className="product-container">
         {
-          products.map( product => <Product product={product} key={product.id}></Product>)
+          products.map( product => <Product product={product} addSelectHeadphone={addSelectHeadphone(product)} key={product.id}></Product>)
         }
         </div>
-      <Cart></Cart>
+      <div className="cart-container">
+        <Cart></Cart>
+      </div>
     </div>
   );
 };
