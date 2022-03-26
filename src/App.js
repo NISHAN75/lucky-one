@@ -2,14 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Shop from './components/Shop/Shop';
-import Quntion from './components/Question/Quntion';
+import Question from './components/Question/Question';
+
 
 function App() {
   return (
     <div>
       <Header></Header>
       <Shop></Shop>
-      <Quntion></Quntion>
+      <Question></Question>
     </div>
   );
 }

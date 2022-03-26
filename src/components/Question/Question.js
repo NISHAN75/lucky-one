@@ -1,7 +1,7 @@
 import React from 'react';
 import './Quntion.css'
 
-const Quntion = () => {
+const Question = () => {
   return (
     <div className='quntion-container'>
       <div className='q-1'>
@@ -17,4 +17,4 @@ const Quntion = () => {
   );
 };
 
-export default Quntion;
+export default Question;
