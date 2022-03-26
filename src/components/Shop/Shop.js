@@ -25,7 +25,8 @@ const randomHeadphone=(cart)=>{
     setRandom(randomCount);
 }
 const allRemoveHeadphone=()=>{
-  setCart([])
+  setCart([]);
+  setRandom([]);
 }
   return (
     <div className='shop-container'>
