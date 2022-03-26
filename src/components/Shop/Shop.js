@@ -4,7 +4,8 @@ import Product from '../Product/Product';
 import './Shop.css'
 const Shop = () => {
   const [products , setProducts]=useState([]);
-  const [cart,setCart]=useState([])
+  const [cart,setCart]=useState([]);
+  const [random ,setRandom]=useState([]);
    useEffect(()=>{
    fetch('products.json')
    .then(res => res.json())
@@ -12,9 +13,20 @@ const Shop = () => {
  },[]);
  const addSelectHeadphone =(product)=>{
     const newCart=[...cart , product];
+    if(newCart.length >4){
+      alert('you cannot add more than 4 item')
+      return;
+    }
     setCart(newCart);
+    // const removHeadphone=()=>{
+    //   console.log('click')
+    // }
+
+    // const randomHandaler=(cart)=>{
+    //   const randomCount=cart[Math.floor(Math.random() * cart.length)].name;
+    //   setRandom(randomCount);
+    // }
 }
-console.log(cart)
   return (
     <div className='shop-container'>
         <div className="product-container">
