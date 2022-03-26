@@ -18,14 +18,14 @@ const Shop = () => {
       return;
     }
     setCart(newCart);
-    // const removHeadphone=()=>{
-    //   console.log('click')
-    // }
-
-    // const randomHandaler=(cart)=>{
-    //   const randomCount=cart[Math.floor(Math.random() * cart.length)].name;
-    //   setRandom(randomCount);
-    // }
+}
+const randomHeadphone=(cart)=>{
+  setCart([]);
+  const randomCount=cart[Math.floor(Math.random() * cart.length)];
+    setRandom(randomCount);
+}
+const allRemoveHeadphone=()=>{
+  setCart([])
 }
   return (
     <div className='shop-container'>
@@ -38,7 +38,7 @@ const Shop = () => {
         }
         </div>
         <div className='cart-container'>
-          <Cart cart={cart} ></Cart>
+          <Cart randomHeadphone={randomHeadphone} random={random} allRemoveHeadphone={allRemoveHeadphone} cart={cart} ></Cart>
         </div>
         
     </div>
