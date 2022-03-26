@@ -1,0 +1,74 @@
+[
+  {
+    "id": "001",
+    "category": "Headphone",
+    "name": "Audio Technica ATH-M20x Headphone",
+    "brand": "Sony Headphones & Headsets",
+    "price": 750,
+    "img":"https://img.freepik.com/free-photo/pink-headphones-wireless-digital-device_53876-96804.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  },
+  {
+    "id": "002",
+    "category": "Headphone",
+    "name": "Sony MDR-7506 Headphone",
+    "brand": "Sony Headphones & Headsets",
+    "price": 650,
+    "img":"https://img.freepik.com/free-psd/creative-headphone-mockup_1310-744.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  },
+  {
+    "id": "003",
+    "category": "Headphone",
+    "name": "Sony MDR-XB450AP Headphone",
+    "brand": "Sony Headphones & Headsets",
+    "price": 950,
+    "img":"https://img.freepik.com/free-psd/creative-headphone-mockup_1310-740.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  },
+  {
+    "id": "004",
+    "category": "Headphone",
+    "name": "Behringer HPX4000 DJ Headphone",
+    "brand": "Sony Headphones & Headsets",
+    "price": 874,
+    "img":"https://img.freepik.com/free-psd/creative-headphone-mockup_1310-741.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  },
+  {
+    "id": "005",
+    "category": "Headphone",
+    "name": "On-the-ear Headphone See Full Specifications",
+    "brand": "Sony Headphones & Headsets",
+    "price": 1299,
+    "img":"https://img.freepik.com/free-psd/headphone-logo-mockup-isolated_57262-71.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  },
+  {
+    "id": "006",
+    "category": "Headphone",
+    "name": "Skullcandy S6SCGY Headphone",
+    "brand": "Sony Headphones & Headsets",
+    "price": 999,
+    "img":"https://img.freepik.com/free-photo/black-headphones-digital-device_53876-97302.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  },
+  {
+    "id": "007",
+    "category": "Headphone",
+    "name": "Sennheiser HD 201 Headphone",
+    "brand": "Sony Headphones & Headsets",
+    "price": 789,
+    "img":"https://img.freepik.com/free-photo/light-blue-headphones-plain-blue-background-studio_376663-3.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  },
+  {
+    "id": "008",
+    "category": "Headphone",
+    "name": "Beyerdynamic DT 770 PRO Headphone",
+    "brand": "Sony Headphones & Headsets",
+    "price": 1500,
+    "img":"https://img.freepik.com/free-psd/top-view-back-school-headphones_23-2148655110.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  },
+  {
+    "id": "009",
+    "category": "Headphone",
+    "name": "iBall Rocky Headphone",
+    "brand": "Sony Headphones & Headsets",
+    "price": 970,
+    "img":"https://img.freepik.com/free-photo/red-gold-headphones-digital-device_53876-97303.jpg?size=626&ext=jpg&ga=GA1.2.1776685707.1648260909"
+  }
+]
