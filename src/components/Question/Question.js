@@ -1,9 +1,9 @@
 import React from 'react';
-import './Quntion.css'
+import './Question.css'
 
 const Question = () => {
   return (
-    <div className='quntion-container'>
+    <div className='question-container'>
       <div className='q-1'>
       <h1>How React Works?</h1>
       <p>ReactJs one of the most popular JavaScript libraries for mobile and web application development.React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code.</p>

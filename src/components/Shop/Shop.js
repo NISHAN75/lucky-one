@@ -20,9 +20,14 @@ const Shop = () => {
     setCart(newCart);
 }
 const randomHeadphone=(cart)=>{
-  setCart([]);
+  if(cart.length ===0){
+    return;
+  }
+  else{
+    setCart([]);
   const randomCount=cart[Math.floor(Math.random() * cart.length)];
     setRandom(randomCount);
+  }
 }
 const allRemoveHeadphone=()=>{
   setCart([]);
